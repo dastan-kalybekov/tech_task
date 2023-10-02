@@ -1,0 +1,6 @@
+[
+    {"product_name": "Продукт1", "categories": ["Категория1", "Категория2"]},
+    {"product_name": "Продукт2", "categories": ["Категория2", "Категория3"]},
+    {"product_name": "Продукт3", "categories": ["Категория1"]},
+    {"product_name": "Продукт4", "categories": [null]}
+]
