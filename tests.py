@@ -15,7 +15,7 @@ class TestFigures(TestCase):
 
     def test_area_circle(self):
         """
-                Тестируем вычисления площади круга.
+            Тестируем вычисления площади круга.
         """
         excepted_result = 153.94
         test = self.circle.area()
@@ -23,7 +23,7 @@ class TestFigures(TestCase):
 
     def test_area_triangle_(self):
         """
-                    Тестируем вычисления площади триугольника.
+            Тестируем вычисления площади триугольника.
         """
         excepted_result = 16.25
         test = self.triangle.area()

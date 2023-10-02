@@ -31,7 +31,6 @@ class Triangle(Shape):
             :s = площадь:
             :s_r = квадратный коррень:
         """
-
         p = (self.side_1 + self.side_2 + self.side_3) / 2
         s = p * (p - self.side_1) * (p - self.side_2) * (p - self.side_3)
         s_r = sqrt(s)
@@ -41,7 +40,6 @@ class Triangle(Shape):
         """
             Проверяем является триугольник прямоугольным.
         """
-
         sides = sorted([self.side_1, self.side_2, self.side_3])
         if sides[0] ** 2 + sides[1] ** 2 == sides[2] ** 2:
             return True
